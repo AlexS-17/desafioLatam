@@ -1,0 +1,69 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url(https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+
+/* Botones */
+
+.btn-outline-yellow {
+    border-color: #ffc300;
+}
+
+.btn-outline-yellow:hover {
+  border-color: yellow;
+}
+
+.btn-contacto {
+  background-color: #ffc300;
+  color: #373a3c;
+}
+
+
+/* Mis trabajos */
+
+.bg-yellow {
+  background-color: #ffc300;
+
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+/* Formulario */
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.25rem #ffc300;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
